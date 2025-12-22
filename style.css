@@ -39,3 +39,9 @@ header .subtitle {
   font-size: 0.9em;
   opacity: 0.9;
 }
+
+.notice {
+  background-color: transparent;
+  font-size: 0.8em;
+  color: #666666;
+  text-align: center;
