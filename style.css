@@ -74,3 +74,21 @@ header .subtitle {
 .download-button:hover {
   background-color: #5b8fc0;
 }
+
+.screenshots {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.screenshot {
+  width: 200px;
+  height: 120px;
+  background-color: #ddd;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  font-size: 14px;
+}
