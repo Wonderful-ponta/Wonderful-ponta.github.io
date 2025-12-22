@@ -8,33 +8,63 @@
 
 <body>
 
-<header>
+<header class="site-header">
   <h1>ゲーミング犬小屋（別荘）</h1>
-  <p class="subtitle">個人制作ゲームの保管庫</p>
+  <p class="subtitle">
+    個人制作ゲームの保管庫<br>
+    静かな世界を、そっと置いています
+  </p>
 </header>
 
-<main>
+<main class="container">
 
-  <section>
+  <!-- サイト紹介 -->
+  <section class="card">
     <h2>このサイトについて</h2>
     <p>
-      このサイトは、個人が制作したゲーム作品を公開するための場所です。
-      静かな探索体験を中心とした作品を、少しずつ公開していく予定です。
+      このサイトは、個人が制作したゲーム作品を公開するための場所です。<br>
+      派手さよりも、孤独や静けさ、探索する時間を大切にした作品を中心に制作しています。
+    </p>
+    <p class="note">
+      ※ 本サイトの作品はすべて非公式のファン活動として制作されています。
     </p>
   </section>
 
-  <section>
+  <!-- 公開中のゲーム -->
+  <section class="card">
     <h2>公開中のゲーム</h2>
-    <ul>
-      <li>
-        <a href="games/BugPokemonRPG.html">
-          むしポケモン
-        </a>
-      </li>
-    </ul>
+
+    <div class="game-list">
+      <a class="game-card" href="games/BugPokemonRPG.html">
+        <h3>むしポケモン</h3>
+        <p>静かな探索を楽しむ非公式ファンゲーム</p>
+        <span class="tag">探索</span>
+        <span class="tag">短編</span>
+      </a>
+    </div>
+
+    <p class="coming-soon">
+      ※ 新しい作品は順次追加予定です
+    </p>
+  </section>
+
+  <!-- 制作者について -->
+  <section class="card">
+    <h2>制作者について</h2>
+    <p>
+      ワンダフルポンタ<br>
+      ゲーム制作・物語・静かな世界が好きです。
+    </p>
   </section>
 
 </main>
+
+<footer class="site-footer">
+  <p>
+    © Wonderful Ponta<br>
+    このサイトは個人による非公式ファン活動です
+  </p>
+</footer>
 
 </body>
 </html>
