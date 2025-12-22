@@ -1,94 +1,95 @@
 body {
   background-color: #f2f4f7;
   font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
-  color: #333333;
+  color: #333;
   margin: 0;
-  padding: 0;
 }
 
-header {
-  background-color: #6fa8dc;
+.site-header {
+  background: linear-gradient(135deg, #6fa8dc, #9fc5e8);
   color: white;
-  padding: 20px;
+  padding: 40px 20px;
   text-align: center;
 }
 
-main {
-  padding: 20px;
-}
-
-section {
-  background-color: white;
-  border-radius: 8px;
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-h2 {
-  border-bottom: 2px solid #6fa8dc;
-  padding-bottom: 5px;
-}
-
-header h1 {
+.site-header h1 {
   margin: 0;
   font-size: 2em;
 }
 
-header .subtitle {
-  margin-top: 8px;
-  font-size: 0.9em;
-  opacity: 0.9;
+.subtitle {
+  margin-top: 10px;
+  font-size: 0.95em;
+  opacity: 0.95;
 }
 
-.notice {
-  background-color: transparent;
-  font-size: 0.8em;
-  color: #666666;
-  text-align: center;
-
-.breadcrumb {
-  margin-bottom: 15px;
-  font-size: 0.9em;
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
 }
 
-.breadcrumb a {
+.card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+h2 {
+  border-bottom: 2px solid #6fa8dc;
+  padding-bottom: 6px;
+}
+
+.note {
+  font-size: 0.85em;
+  color: #666;
+}
+
+.game-list {
+  display: grid;
+  gap: 15px;
+}
+
+.game-card {
+  display: block;
+  padding: 18px;
+  border-radius: 10px;
+  background-color: #f8fbff;
   text-decoration: none;
-  color: #6fa8dc;
+  color: #333;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.breadcrumb a:hover {
-  text-decoration: underline;
+.game-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.12);
 }
 
-.download-button {
+.game-card h3 {
+  margin: 0 0 5px 0;
+}
+
+.tag {
   display: inline-block;
   background-color: #6fa8dc;
   color: white;
-  text-decoration: none;
-  padding: 12px 24px;
-  border-radius: 6px;
-  font-weight: bold;
+  font-size: 0.75em;
+  padding: 3px 8px;
+  border-radius: 999px;
+  margin-right: 5px;
+}
+
+.coming-soon {
+  font-size: 0.85em;
+  color: #777;
   margin-top: 10px;
 }
 
-.download-button:hover {
-  background-color: #5b8fc0;
-}
-
-.screenshots {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-}
-
-.screenshot {
-  width: 200px;
-  height: 120px;
-  background-color: #ddd;
-  border-radius: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #666;
-  font-size: 14px;
+.site-footer {
+  text-align: center;
+  font-size: 0.8em;
+  color: #777;
+  padding: 20px;
 }
