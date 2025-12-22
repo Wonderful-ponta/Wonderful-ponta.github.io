@@ -59,3 +59,18 @@ header .subtitle {
 .breadcrumb a:hover {
   text-decoration: underline;
 }
+
+.download-button {
+  display: inline-block;
+  background-color: #6fa8dc;
+  color: white;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.download-button:hover {
+  background-color: #5b8fc0;
+}
