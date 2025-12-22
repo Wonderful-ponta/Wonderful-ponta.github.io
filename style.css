@@ -45,3 +45,17 @@ header .subtitle {
   font-size: 0.8em;
   color: #666666;
   text-align: center;
+
+.breadcrumb {
+  margin-bottom: 15px;
+  font-size: 0.9em;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #6fa8dc;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
