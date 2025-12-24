@@ -125,6 +125,38 @@ h2 {
   text-decoration: underline;
 }
 
+.download-area {
+  text-align: center;
+}
+
+.download-button {
+  display: inline-block;
+  background: linear-gradient(135deg, #6fa8dc, #9fc5e8);
+  color: white;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 14px 28px;
+  border-radius: 12px;
+  text-decoration: none;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.download-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+}
+
+.download-button:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.download-note {
+  font-size: 0.85em;
+  color: #555;
+  margin-top: 10px;
+}
 
 .tag {
   display: inline-block;
