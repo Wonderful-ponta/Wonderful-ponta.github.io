@@ -11,6 +11,20 @@ body {
   padding: 0;
 }
 
+@media (min-width: 768px) {
+  body {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    background-repeat: repeat;
+    background-size: 544px 384px;
+  }
+}
+
 .site-header {
   background: linear-gradient(135deg, #6fa8dc, #9fc5e8);
   color: white;
