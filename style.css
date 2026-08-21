@@ -97,6 +97,12 @@ h2 {
   font-size: 1.4em;
 }
 
+.browser-card .download-button {
+  display: block;
+  width: fit-content;
+  margin: 15px auto 0;
+}
+
 .screenshots {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
