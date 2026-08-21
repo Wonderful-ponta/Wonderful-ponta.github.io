@@ -82,10 +82,6 @@ h2 {
   color: #333;
 }
 
-.game-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.12);
-}
 
 .game-card h3 {
   margin: 0 0 5px 0;
