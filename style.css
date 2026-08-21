@@ -97,6 +97,20 @@ h2 {
   font-size: 1.4em;
 }
 
+.browser-play {
+  text-align: center;
+  padding: 10px 18px 5px;
+}
+
+.browser-play h3 {
+  margin: 10px 0;
+  font-size: 1.4em;
+}
+
+.browser-play p {
+  margin-bottom: 15px;
+}
+
 .browser-card .download-button {
   display: block;
   width: fit-content;
