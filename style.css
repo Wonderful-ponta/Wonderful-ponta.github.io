@@ -78,7 +78,7 @@ h2 {
   display: block;
   padding: 18px;
   border-radius: 10px;
-  background-color: #f8fbff;
+  background-color: #d9f5df;
   text-decoration: none;
   color: #333;
   transition: transform 0.2s, box-shadow 0.2s;
@@ -91,6 +91,10 @@ h2 {
 
 .game-card h3 {
   margin: 0 0 5px 0;
+}
+
+.browser-card h3 {
+  font-size: 1.4em;
 }
 
 .screenshots {
